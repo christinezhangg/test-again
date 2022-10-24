@@ -1,1 +1,204 @@
+#entirescreen {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: white;
+    width: 100%;
+}
 
+.header .topbar {
+    position: fixed;
+    height: 50px;
+    background: lightgreen;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.topbar .logo {
+    position: fixed;
+    top: -15px;
+    left: 10px;
+}
+
+.topbar .searchbar {
+    position: fixed;
+    flex-direction: row;
+    top: 5px;
+    left: 45%;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    color: darkgrey;
+}
+
+.topbar .searchbar img {
+    margin-left: 10px;
+    mix-blend-mode: multiply;
+    height: 50%;
+    position: relative;
+    left: 20px;
+}
+
+.header .topbar .overallpp {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    right: 50px;
+    top: 7px;
+}
+
+.header .navigation {
+    position: fixed;
+    height: 25px;
+    background:green;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    margin-top: 50px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 150px;
+    justify-content: center;
+    align-content: center;
+}
+
+.socialfeed {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 100%;
+}
+
+.posts {
+    width: 50%;
+    padding-left: 150px;
+}
+
+.imagepost {
+    border: solid;
+    width: 400px;
+}
+
+#PP {
+    float: left;
+}
+
+#profilename1{
+    float: left;
+    font-size: 12pt;
+    margin-left: 10px;
+}
+
+.imagepost .studentimagepost {
+    clear: left;
+    display: flex;
+    width: 400px;
+    height: auto;
+    flex-direction: column;
+}
+
+.imagepostcontent {
+    width: 400px;
+}
+
+.caption1, .time1, .comment1, .caption2, .time2, .comment2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.writtenpost {
+    border: solid;
+    width: 400px;
+    margin-top: 50px;
+}
+
+#WPP {
+    float: left;
+}
+
+#profilename2{
+    float: left;
+    font-size: 12pt;
+    margin-left: 10px;
+}
+
+.writtenpost .writtenpostcontent {
+    clear: left;
+    display: flex;
+    width: 400px;
+    height: auto;
+    flex-direction: column;
+}
+
+.followinglist {
+    width: 30%;
+}
+
+.currentlyfollows {
+    justify-content: center;
+    padding: 10px;
+    border: solid;
+}
+
+.followheader, .suggestedheader {
+    font-size: 20pt;
+}
+
+.friend1, .suggested1 {
+    margin: 10px;
+}
+
+#F1, #S1 {
+    float: left;
+}
+
+#friendname1, #suggestedname1{
+    float: left;
+    font-size: 12pt;
+    margin-left: 10px;
+}
+
+.unfollowbutton1, .unfollowbutton2, .unfollowbutton3, .unfollowbutton4 {
+    position: relative;
+    left: 200px;
+    top: 12px;
+}
+
+.friend2, .friend3, .friend4, .suggested2, .suggested3, .suggested4 {
+    clear: left;
+    margin: 10px;
+}
+
+#F2, #F3, #F4, #S2, #S3, #S4 {
+    float: left;
+}
+
+#friendname2, #friendname3, #friendname4, #suggestedname2, #suggestedname3, #suggestedname4 {
+    float: left;
+    font-size: 12pt;
+    margin-left: 10px;
+}
+
+.suggestedfollowing {
+    justify-content: center;
+    padding: 10px;
+    border: solid;
+    margin-top: 50px;
+}
+
+.followbutton1, .followbutton2, .followbutton3, .followbutton4 {
+    position: relative;
+    left: 185px;
+    top: 12px;
+}
