@@ -220,4 +220,34 @@
     }
 }
 
+.profileimageopen {
+    border: solid;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.profileimageopen .profileheader {
+    font-size: 20pt;
+    padding: 5px;
+}
+
+.profileimageopen .profilepagepicture {
+    height: 470px;
+    flex-direction: column;
+}
+
+.profileinformation {
+    border: solid;
+    margin-top: 100px;
+    height: 175px;
+    width: 350px;
+    padding: 5px;
+}
+
+.profileinformation .numberoffollowers {
+    font-size: 20pt;
+}
+
+
+
 
