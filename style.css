@@ -14,6 +14,7 @@
     width: 100%;
     top: 0px;
     left: 0px;
+    z-index: 100;
 }
 
 .topbar .logo {
@@ -175,6 +176,7 @@
     position: relative;
     left: 200px;
     top: 12px;
+    z-index: 0;
 }
 
 .friend2, .friend3, .friend4, .suggested2, .suggested3, .suggested4 {
@@ -217,3 +219,5 @@
         margin: 25px;
     }
 }
+
+
