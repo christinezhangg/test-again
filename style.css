@@ -294,6 +294,17 @@
     right: 34px;
 }
 
+.loginoption {
+    position: relative;
+    text-align: center;
+    top: 180px;
+}
+
+.registeroption {
+    position: relative;
+    text-align: center;
+    top: 190px;
+}
 
 
 
