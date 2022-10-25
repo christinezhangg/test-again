@@ -248,6 +248,47 @@
     font-size: 20pt;
 }
 
+#loginscreen {
+    position: fixed;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: lightgreen;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.titleheader {
+    position: relative;
+    text-align: center;
+    top: 175px;
+}
+
+.loginbuttons {
+    position: relative;
+    text-align: center;
+    top: 160px;
+}
+
+.subheader {
+    position: relative;
+    top: -15px;
+    font-size: 20pt;
+}
+
+.emailbutton {
+    position: relative;
+    right: 22px;
+}
+
+.passwordbutton {
+    position: relative;
+    right: 33px;
+}
+
 
 
 
